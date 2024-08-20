@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yi(Terry) Dong - Personal Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #1a1a1a;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header p {
+            margin: 5px 0;
+            font-size: 1.2em;
+        }
+        nav {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 1.1em;
+        }
+        section {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #1a1a1a;
+            border-bottom: 2px solid #1a1a1a;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .contact-info, .social-media {
+            margin-top: 20px;
+        }
+        .contact-info p, .social-media p {
+            margin: 5px 0;
+        }
+        footer {
+            background-color: #1a1a1a;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Yi(Terry) Dong</h1>
+        <p>Personal Resume and Blog</p>
+    </header>
+
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#education">Education</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <a href="#blog">Blog</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Yi(Terry) Dong is currently majoring in IoT at the Hong Kong University of Science & Technology(Guangzhou). He has a strong background in Electrical Engineering, Automation, and Computer Control & Automation, with experience in various research projects involving machine learning, hardware optimization, and embedded systems.</p>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <p><strong>Hong Kong University of Science & Technology(Guangzhou)</strong></p>
+        <p><strong>Major:</strong> IoT</p>
+        <p><strong>GPA:</strong> 4.15/5</p>
+        <p><strong>Period:</strong> 01/2024 ~ Present</p>
+
+        <p><strong>Nanyang Techological University (NTU)</strong></p>
+        <p><strong>Major:</strong> Computer Control & Automation</p>
+        <p><strong>GPA:</strong> 4.4/5</p>
+        <p><strong>Period:</strong> 08/2022 ~ 07/2023</p>
+
+        <p><strong>University of Electronic Science and Technology of China (UESTC)</strong></p>
+        <p><strong>Major:</strong> Electrical Engineering and Automation</p>
+        <p><strong>GPA:</strong> 3.6/4</p>
+        <p><strong>Period:</strong> 09/2018 ~ 07/2022</p>
+    </section>
+
+    <section id="experience">
+        <h2>Experience</h2>
+        <h3>Mixed Precision Model Optimization with Hardware Performances</h3>
+        <p><strong>Period:</strong> 03/2024 ~ Present</p>
+        <p>The project aimed to explore the trade-offs between performance and accuracy in deploying mixed precision models on microcontroller units (MCUs), specifically evaluating the effectiveness of floating-point fallback strategies.</p>
+
+        <h3>Battery SOH Estimation</h3>
+        <p><strong>Period:</strong> 02/2024 ~ 05/2024</p>
+        <p>This project focused on developing a lightweight and efficient battery State of Health (SOH) estimation algorithm using TinyML, integrated directly into the battery management system (BMS) for real-time monitoring and predictive maintenance.</p>
+
+        <h3>Modular Deep Learning Algorithm</h3>
+        <p><strong>Period:</strong> 07/2022 ~ 05/2023</p>
+        <p>The project involved designing a modular deep learning architecture utilizing a stepwise greedy layer-wise pretraining approach for efficient model training and improved feature representation across complex datasets.</p>
+
+        <h3>Design of An Offline YOLOv4 Algorithm based on Jetson</h3>
+        <p><strong>Period:</strong> 09/2021 ~ 11/2021</p>
+        <p>The project aimed to develop an efficient object detection system using the YOLOv4 algorithm deployed on the NVIDIA Jetson platform for real-time applications such as smart surveillance and autonomous navigation.</p>
+
+        <h3>Design of a Chess Clock based on FPGA</h3>
+        <p><strong>Period:</strong> 01/2020 ~ 07/2020</p>
+        <p>This project was about designing a Chess clock for Chess games, providing functions like countdown, beam when over, and critical warnings using FPGA technology.</p>
+
+        <h3>Design of a Hexapod based on Raspberry Pi and Opencv</h3>
+        <p><strong>Period:</strong> 04/2019 ~ 04/2020</p>
+        <p>This project involved designing a Hexapod with good steering and sensing abilities for use in rescue missions in ruins or after earthquakes.</p>
+
+        <h3>Internship Experience</h3>
+        <p><strong>CITIC Securities</strong></p>
+        <p><strong>Period:</strong> 11/2022 ~ 01/2023</p>
+        <p>Worked on Low-Latency trading systems and quant research.</p>
+
+        <p><strong>NXP</strong></p>
+        <p><strong>Period:</strong> 09/2022 ~ 11/2022</p>
+        <p>Worked on Digital Circuit Front End, in charge of SoC Design.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Mixed Precision Model Optimization</li>
+            <li>Battery State of Health Estimation</li>
+            <li>Modular Deep Learning Architecture</li>
+            <li>FPGA and Microcontroller Design</li>
+            <li>YOLOv4 Object Detection</li>
+            <li>C/C++ Programming</li>
+            <li>TinyML Deployment</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>Details of the projects have been included in the experience section. This section could include links to project repositories, papers, or additional detailed descriptions if available.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <div class="contact-info">
+            <p><strong>Email:</strong> ysun012@connect.hkust-gz.edu.cn</p>
+            <p><strong>Phone/WeChat:</strong> +86 18954406512</p>
+        </div>
+        <div class="social-media">
+            <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/yourprofile">Your LinkedIn</a></p>
+            <p><strong>GitHub:</strong> <a href="https://github.com/jacksun12?tab=repositories">jacksun12 GitHub</a></p>
+        </div>
+    </section>
+
+    <section id="blog">
+        <h2>Blog</h2>
+        <p>Your latest blog posts will go here. You can add links or excerpts from your blog entries.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Yi(Terry) Dong. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
